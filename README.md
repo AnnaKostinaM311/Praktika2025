@@ -11,3 +11,11 @@ API-шлюз выполняет роль промежуточного серве
 ```
 GET http://localhost:8080/api/forward?age=35&gender=1&wbc=5.5&hgb=140
 ```
+Ответ:
+```
+{
+    "uid": "web-client",
+    "prediction": 5.38,
+    "model": "hba1c"
+}
+```
